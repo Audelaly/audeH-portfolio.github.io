@@ -11,12 +11,16 @@
     "@vercel/postgres": "^0.8.0",
     "autoprefixer": "10.4.19",
     "bcrypt": "^5.1.1",
+    "bootstrap": "^5.3.3",
+    "bootstrap-icons": "^1.11.3",
+    "boxicons": "^2.1.4",
     "clsx": "^2.1.1",
     "next": "15.0.0-canary.56",
     "next-auth": "5.0.0-beta.19",
     "postcss": "8.4.38",
     "react": "19.0.0-rc-f38c22b244-20240704",
     "react-dom": "19.0.0-rc-f38c22b244-20240704",
+    "react-scroll": "^1.9.0",
     "tailwindcss": "3.4.4",
     "typescript": "5.5.2",
     "use-debounce": "^10.0.1",
@@ -30,5 +34,11 @@
   },
   "engines": {
     "node": ">=20.12.0"
-  }
+  },
+  "name": "aude-halipre-portfolio",
+  "description": "This is the starter template for the Next.js App Router Course. It contains the starting code for the dashboard application.",
+  "version": "1.0.0",
+  "main": "postcss.config.js",
+  "author": "",
+  "license": "ISC"
 }
