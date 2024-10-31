@@ -57,7 +57,7 @@ const ContactSection = () => {
                             </div>
                             <div className="form-group mb-4">
                                 <label htmlFor="message" className="block text-sm font-medium">Votre message</label>
-                                <textarea className="form-control w-full px-3 py-2 border rounded-md" name="message" rows="10" required></textarea>
+                                <textarea className="form-control w-full px-3 py-2 border rounded-md" name="message" rows={10} required></textarea>
                             </div>
                             <div className="my-3">
                                 <div className="loading">Chargement</div>
