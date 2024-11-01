@@ -15,7 +15,7 @@ function DefaultTemplate({ children }: DefaultTemplateProps) {
                     <div className="profile text-center">
                         <img src="public/img/profil.JPG" alt="" className="w-24 h-24 rounded-full mx-auto"/>
                         <h1 className="text-light text-2xl mt-4">
-                            <a href="/" className="text-white no-underline">Aude Halipré</a>
+                            <a href="#home" className="text-white no-underline">Aude Halipré</a>
                         </h1>
                         <div className="social-links mt-3 flex justify-center space-x-4">
                             <a href="https://www.linkedin.com/in/aude-halipre/" className="linkedin text-white hover:text-blue-500">
