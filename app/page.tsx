@@ -3,8 +3,6 @@ import SkillsSection from "@/app/ui/skills-section";
 import ContactSection from "@/app/ui/contact-section";
 import ProjetsSection from "@/app/ui/projets-section";
 import DefaultTemplate from "@/app/ui/default-template";
-import { useEffect } from 'react';
-import Typed from 'typed.js';
 import AboutSection from "@/app/ui/about-section";
 
 export default function Page() {
