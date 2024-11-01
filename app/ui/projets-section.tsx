@@ -56,9 +56,9 @@ const ProjetsSection = () => {
 
                     <div className="col-lg-4 col-md-6 portfolio-item filter-card mb-8">
                         <div className="portfolio-wrap">
-                            <img src="/audeH-portfolio.github.io/img/portfolio/portfolio-3.jpg" className="img-fluid" alt="Flatcraft" />
+                            <img src="/audeH-portfolio.github.io/img/flatcraft.png" className="img-fluid" alt="Flatcraft" />
                             <div className="portfolio-links flex justify-center space-x-4 mt-4">
-                                <a href="/audeH-portfolio.github.io/img/portfolio/portfolio-3.jpg" data-gallery="portfolioGallery" className="portfolio-lightbox" title="Flatcraft">
+                                <a href="/audeH-portfolio.github.io/img/flatcraft.png" data-gallery="portfolioGallery" className="portfolio-lightbox" title="Flatcraft">
                                     <i className="bx bx-plus text-2xl"></i>
                                 </a>
                                 <a href="flatcraft.html" title="Plus de détails">
