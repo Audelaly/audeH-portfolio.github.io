@@ -24,11 +24,11 @@ const ProjetsSection = () => {
                         <div className="portfolio-wrap">
                             <Link href="/projets-details/pendu" legacyBehavior>
                                 <a>
-                                    <img src="/img/jeu-du-pendu.svg" className="img-fluid" alt="Jeu du pendu" />
+                                    <img src="/audeH-portfolio.github.io/img/jeu-du-pendu.svg" className="img-fluid" alt="Jeu du pendu" />
                                 </a>
                             </Link>
                             <div className="portfolio-links flex justify-center space-x-4 mt-4">
-                                <a href="/img/jeu-du-pendu.svg" data-gallery="portfolioGallery" className="portfolio-lightbox" title="Jeu du pendu">
+                                <a href="/audeH-portfolio.github.io/img/jeu-du-pendu.svg" data-gallery="portfolioGallery" className="portfolio-lightbox" title="Jeu du pendu">
                                     <i className="bx bx-plus text-2xl"></i>
                                 </a>
                                 <Link href="/projets-details/pendu" legacyBehavior>
@@ -42,9 +42,9 @@ const ProjetsSection = () => {
 
                     <div className="col-lg-4 col-md-6 portfolio-item filter-app mb-8">
                         <div className="portfolio-wrap">
-                            <img src="/img/verbes-anglais.svg" className="img-fluid" alt="Verbes irréguliers anglais" />
+                            <img src="/audeH-portfolio.github.io/img/verbes-anglais.svg" className="img-fluid" alt="Verbes irréguliers anglais" />
                             <div className="portfolio-links flex justify-center space-x-4 mt-4">
-                                <a href="/img/verbes-anglais.svg" data-gallery="portfolioGallery" className="portfolio-lightbox" title="Verbes irréguliers anglais">
+                                <a href="/audeH-portfolio.github.io/img/verbes-anglais.svg" data-gallery="portfolioGallery" className="portfolio-lightbox" title="Verbes irréguliers anglais">
                                     <i className="bx bx-plus text-2xl"></i>
                                 </a>
                                 <a href="verbes.html" title="Plus de détails">
@@ -56,9 +56,9 @@ const ProjetsSection = () => {
 
                     <div className="col-lg-4 col-md-6 portfolio-item filter-card mb-8">
                         <div className="portfolio-wrap">
-                            <img src="assets/img/portfolio/portfolio-3.jpg" className="img-fluid" alt="Flatcraft" />
+                            <img src="/audeH-portfolio.github.io/img/portfolio/portfolio-3.jpg" className="img-fluid" alt="Flatcraft" />
                             <div className="portfolio-links flex justify-center space-x-4 mt-4">
-                                <a href="assets/img/portfolio/portfolio-3.jpg" data-gallery="portfolioGallery" className="portfolio-lightbox" title="Flatcraft">
+                                <a href="/audeH-portfolio.github.io/img/portfolio/portfolio-3.jpg" data-gallery="portfolioGallery" className="portfolio-lightbox" title="Flatcraft">
                                     <i className="bx bx-plus text-2xl"></i>
                                 </a>
                                 <a href="flatcraft.html" title="Plus de détails">
@@ -70,9 +70,9 @@ const ProjetsSection = () => {
 
                     <div className="col-lg-4 col-md-6 portfolio-item filter-card mb-8">
                         <div className="portfolio-wrap">
-                            <img src="/img/jo2024.svg" className="img-fluid" alt="JO Paris 2024" />
+                            <img src="/audeH-portfolio.github.io/img/jo2024.svg" className="img-fluid" alt="JO Paris 2024" />
                             <div className="portfolio-links flex justify-center space-x-4 mt-4">
-                                <a href="assets/img/portfolio/portfolio-4.jpg" data-gallery="portfolioGallery" className="portfolio-lightbox" title="JO Paris 2024">
+                                <a href="/audeH-portfolio.github.io/img/portfolio/portfolio-4.jpg" data-gallery="portfolioGallery" className="portfolio-lightbox" title="JO Paris 2024">
                                     <i className="bx bx-plus text-2xl"></i>
                                 </a>
                                 <a href="jo.html" title="Plus de détails">
