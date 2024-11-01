@@ -8,6 +8,8 @@ type DefaultTemplateProps = {
 function DefaultTemplate({ children }: DefaultTemplateProps) {
     return (
         <div className="flex">
+            {/* ======= Mobile nav toggle button ======= */}
+            <i className="bi bi-list mobile-nav-toggle d-xl-none"></i>
             <header id="header" className="bg-gray-800 text-white">
                 <div className="flex flex-col items-center">
                     <div className="profile text-center">

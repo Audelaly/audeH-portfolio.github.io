@@ -6,23 +6,22 @@ import DefaultTemplate from "@/app/ui/default-template";
 
 export default function Page() {
     return (
-
         <DefaultTemplate>
             <div>
                 <div>
-                    <section id="home" className="d-flex flex-column justify-content-center align-items-center">
+                    <section id="home" className="d-flex flex-col justify-center items-center min-h-screen">
                         <div className="home-container" data-aos="fade-in">
-                            <h1>Je s'appelle Aude Halipré</h1>
-                            <p><span className="typed" data-typed-items="Apprentie développeuse"></span></p>
+                            <h1 className="text-4xl md:text-5xl lg:text-6xl">Je s'appelle Aude Halipré</h1>
+                            <p className="text-lg md:text-xl lg:text-2xl"><span className="typed" data-typed-items="Apprentie développeuse"></span></p>
                         </div>
                     </section>
-                    <section id="accueil">
+                    <section id="accueil" className="p-4 md:p-8 lg:p-12">
                         {/* Contenu de la page d'accueil */}
                     </section>
-                    <section id="about">
+                    <section id="about" className="p-4 md:p-8 lg:p-12">
                         <div className="col-lg-8 pt-4 pt-lg-0 content" data-aos="fade-left">
-                            <h3>Qui suis-je ?</h3>
-                            <p className="fst-italic">
+                            <h3 className="text-2xl md:text-3xl lg:text-4xl">Qui suis-je ?</h3>
+                            <p className="fst-italic text-base md:text-lg lg:text-xl">
                                 Bonjour à tous ! Je m'appelle Aude Halipré (mais je pense que vous le savez déjà ^^).
                                 Je suis actuellement en troisième année de BUT informatique à l'IUT de Lens.
                             </p>
@@ -50,24 +49,22 @@ export default function Page() {
                                     </ul>
                                 </div>
                             </div>
-                            <p>En dehors des cours : j'aime programmer, regarder du sport, pratiquer le badminton, jouer
-                                aux
-                                jeux vidéos, marcher et jouer à des jeux de société en famille.</p>
-                            <p>Je suis une personne sérieuse, à l'écoute, motivée et organisée. Même si je suis
-                                autonome, je
-                                suis tout à fait capable de travailler au sein d'une équipe.</p>
+                            <p className="text-base md:text-lg lg:text-xl">En dehors des cours : j'aime programmer, regarder du sport, pratiquer le badminton, jouer
+                                aux jeux vidéos, marcher et jouer à des jeux de société en famille.</p>
+                            <p className="text-base md:text-lg lg:text-xl">Je suis une personne sérieuse, à l'écoute, motivée et organisée. Même si je suis
+                                autonome, je suis tout à fait capable de travailler au sein d'une équipe.</p>
                         </div>
                     </section>
-                    <section id="formation">
+                    <section id="formation" className="p-4 md:p-8 lg:p-12">
                         <FormationSection/>
                     </section>
-                    <section id="projets">
+                    <section id="projets" className="p-4 md:p-8 lg:p-12">
                         <ProjetsSection/>
                     </section>
-                    <section id="skills">
+                    <section id="skills" className="p-4 md:p-8 lg:p-12">
                         <SkillsSection/>
                     </section>
-                    <section id="contact">
+                    <section id="contact" className="p-4 md:p-8 lg:p-12">
                         <ContactSection/>
                     </section>
                 </div>

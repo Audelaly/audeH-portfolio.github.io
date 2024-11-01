@@ -27,6 +27,8 @@ const FormationSection = () => {
                             <h4>Stage</h4>
                             <h5>Avril 2024 - Juin 2024</h5>
                             <p><em>IEMN CNRS, Villeneuve d'Ascq </em></p>
+                        </div>
+                        <div className="resume-item">
                             <h4>Alternance</h4>
                             <h5>Septembre 2024 - en cours</h5>
                             <p><em>IEMN CNRS, Villeneuve d'Ascq </em></p>
