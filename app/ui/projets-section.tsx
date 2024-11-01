@@ -1,4 +1,4 @@
-import React from "react";
+import Link from 'next/link';
 
 const ProjetsSection = () => {
     return (
@@ -22,14 +22,20 @@ const ProjetsSection = () => {
                 <div className="row portfolio-container mt-8" data-aos="fade-up" data-aos-delay="100">
                     <div className="col-lg-4 col-md-6 portfolio-item filter-app mb-8">
                         <div className="portfolio-wrap">
-                            <img src="/img/jeu-du-pendu.svg" className="img-fluid" alt="Jeu du pendu" />
+                            <Link href="/projets-details/pendu" legacyBehavior>
+                                <a>
+                                    <img src="/img/jeu-du-pendu.svg" className="img-fluid" alt="Jeu du pendu" />
+                                </a>
+                            </Link>
                             <div className="portfolio-links flex justify-center space-x-4 mt-4">
                                 <a href="/img/jeu-du-pendu.svg" data-gallery="portfolioGallery" className="portfolio-lightbox" title="Jeu du pendu">
                                     <i className="bx bx-plus text-2xl"></i>
                                 </a>
-                                <a href="jeu.html" title="Plus de détails">
-                                    <i className="bx bx-link text-2xl"></i>
-                                </a>
+                                <Link href="/projets-details/pendu" legacyBehavior>
+                                    <a title="Plus de détails">
+                                        <i className="bx bx-link text-2xl"></i>
+                                    </a>
+                                </Link>
                             </div>
                         </div>
                     </div>
