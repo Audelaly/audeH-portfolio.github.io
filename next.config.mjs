@@ -6,7 +6,6 @@ const nextConfig = {
         scrollRestoration: true,
         serverSourceMaps: false,
         workerThreads: true,
-        useLightningcss: true,
     },
     compiler: {
         styledComponents: true,
