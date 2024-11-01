@@ -1,4 +1,4 @@
-import TerserPlugin from "next/dist/build/webpack/plugins/terser-webpack-plugin/src";
+import TerserPlugin from "next/dist/build/webpack/plugins/terser-webpack-plugin/src/index.js";
 
 const nextConfig = {
     experimental: {
