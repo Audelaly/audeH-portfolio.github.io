@@ -59,11 +59,6 @@ const ContactSection = () => {
                                 <label htmlFor="message" className="block text-sm font-medium">Votre message</label>
                                 <textarea className="form-control w-full px-3 py-2 border rounded-md" name="message" rows={10} required></textarea>
                             </div>
-                            <div className="my-3">
-                                <div className="loading">Chargement</div>
-                                <div className="error-message"></div>
-                                <div className="sent-message">Votre message a bien été envoyé. Merci !</div>
-                            </div>
                             <div className="text-center">
                                 <button type="submit" className="px-6 py-2 bg-blue-600 text-white rounded-md">Envoyer votre message</button>
                             </div>
