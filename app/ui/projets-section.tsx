@@ -64,7 +64,7 @@ const ProjetsSection = () => {
 
                     <div className="col-lg-4 col-md-6 portfolio-item filter-card mb-8">
                         <div className="portfolio-wrap">
-                            <img src="assets/img/jo2024.png" className="img-fluid" alt="JO Paris 2024" />
+                            <img src="/img/jo2024.svg" className="img-fluid" alt="JO Paris 2024" />
                             <div className="portfolio-links flex justify-center space-x-4 mt-4">
                                 <a href="assets/img/portfolio/portfolio-4.jpg" data-gallery="portfolioGallery" className="portfolio-lightbox" title="JO Paris 2024">
                                     <i className="bx bx-plus text-2xl"></i>

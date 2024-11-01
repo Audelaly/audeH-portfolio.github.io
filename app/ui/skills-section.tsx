@@ -24,16 +24,15 @@ const SkillsSection = () => {
                         <div className="progress">
                             <img src="/img/flask-horizontal.webp" alt="Flask" />
                             <img src="/img/laravel.png" alt="Laravel" />
-                            <img src="/img/GitLab_logo.svg.png" alt="GitLab" />
-                            <img src="/img/git logo.png" alt="Git" />
+                            <img src="/img/next-js.svg" alt="Next JS"/>
                         </div>
                     </div>
 
                     <div className="col-lg-3" data-aos="fade-up">
                         <div className="progress">
-                            <img src="/img/html5.png" alt="HTML5" />
+                            <img src="/img/html.svg" alt="HTML5" />
                             <img src="/img/css3.svg" alt="CSS3" />
-                            <img src="/img/javascript.png" alt="JavaScript" />
+                            <img src="/img/javascript.svg" alt="JavaScript" />
                             <img src="/img/PHP-logo.svg.png" alt="PHP" />
                         </div>
                     </div>

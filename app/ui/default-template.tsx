@@ -9,7 +9,6 @@ function DefaultTemplate({ children }: DefaultTemplateProps) {
 
     return (
         <div className="flex h-full">
-            <NavLinks/>
             <div className="flex-grow h-full overflow-auto">
                 {children}
             </div>
