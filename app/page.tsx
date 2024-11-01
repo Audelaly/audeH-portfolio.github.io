@@ -10,7 +10,7 @@ export default function Page() {
         <DefaultTemplate>
             <div>
                 <div>
-                    <section id="home" className="d-flex flex-col justify-center items-center min-h-screen">
+                    <section id="accueil" className="d-flex flex-col justify-center items-center min-h-screen">
                         <div className="home-container" data-aos="fade-in">
                             <h1 className="text-4xl md:text-5xl lg:text-6xl">Je s'appelle Aude Halipré</h1>
                             <p className="text-lg md:text-xl lg:text-2xl">
