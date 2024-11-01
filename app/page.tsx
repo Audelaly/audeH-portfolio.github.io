@@ -9,7 +9,7 @@ export default function Page() {
     return (
 
         <DefaultTemplate>
-        <div className="flex">
+        <div className="d-flex">
             <section id="home" className="d-flex flex-column justify-content-center align-items-center">
                 <div className="home-container" data-aos="fade-in">
                     <h1>Je s'appelle Aude Halipré</h1>
