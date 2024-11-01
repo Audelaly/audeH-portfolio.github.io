@@ -5,7 +5,7 @@ export default function NavLinks() {
     return (
         <nav id="navbar" className="nav-menu navbar">
             <ul>
-                <li><a href="#accueil" className="nav-link scrollto active"><i className="bi bi-house"></i> <span>Accueil</span></a></li>
+                <li><a href="#home" className="nav-link scrollto active"><i className="bi bi-house"></i> <span>Accueil</span></a></li>
                 <li><a href="#about" className="nav-link scrollto"><i className="bi bi-person"></i> <span>A propos de moi</span></a></li>
                 <li><a href="#formation" className="nav-link scrollto"><i className="bi bi-briefcase"></i> <span>Formation et Expériences</span></a></li>
                 <li><a href="#projets" className="nav-link scrollto"><i className="bi bi-book"></i> <span>Projets</span></a></li>
