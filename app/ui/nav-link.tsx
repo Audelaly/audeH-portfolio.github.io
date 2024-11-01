@@ -11,7 +11,7 @@ export default function NavLinks() {
                 <li><a href="#projets" className="nav-link scrollto"><i className="bi bi-book"></i> <span>Projets</span></a></li>
                 <li><a href="#skills" className="nav-link scrollto"><i className="bi bi-lightbulb"></i> <span>Compétences</span></a></li>
                 <li><a href="#contact" className="nav-link scrollto"><i className="bi bi-envelope"></i> <span>Contact</span></a></li>
-                <li><a href="./assets/img/CV_Aude_Halipré.pdf"><i className="bi bi-file-earmark"></i><span>Mon CV</span></a></li>
+                <li><a href="/audeH-portfolio.github.io/file/CV_Aude_Halipré.pdf"><i className="bi bi-file-earmark"></i><span>Mon CV</span></a></li>
             </ul>
         </nav>
     );
