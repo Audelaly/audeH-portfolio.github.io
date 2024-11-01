@@ -14,16 +14,16 @@ const SkillsSection = () => {
 
                     <div className="col-lg-3" data-aos="fade-up">
                         <div className="progress">
-                            <img src="/audeH-portfolio.github.io/img/java.png" alt="Java" />
-                            <img src="/audeH-portfolio.github.io/img/python.png" alt="Python" />
-                            <img src="/audeH-portfolio.github.io/img/linux.png" alt="Linux" />
+                            <img src="/audeH-portfolio.github.io/img/java.webp" alt="Java" />
+                            <img src="/audeH-portfolio.github.io/img/python.webp" alt="Python" />
+                            <img src="/audeH-portfolio.github.io/img/linux.webp" alt="Linux" />
                         </div>
                     </div>
 
                     <div className="col-lg-3" data-aos="fade-up" data-aos-delay="100">
                         <div className="progress">
                             <img src="/audeH-portfolio.github.io/img/flask-horizontal.webp" alt="Flask" />
-                            <img src="/audeH-portfolio.github.io/img/laravel.png" alt="Laravel" />
+                            <img src="/audeH-portfolio.github.io/img/laravel.webp" alt="Laravel" />
                             <img src="/audeH-portfolio.github.io/img/next-js.svg" alt="Next JS"/>
                         </div>
                     </div>
@@ -32,8 +32,8 @@ const SkillsSection = () => {
                         <div className="progress">
                             <img src="/audeH-portfolio.github.io/img/html.svg" alt="HTML5" />
                             <img src="/audeH-portfolio.github.io/img/css3.svg" alt="CSS3" />
-                            <img src="/audeH-portfolio.github.io/img/javascript.svg" alt="JavaScript" />
-                            <img src="/audeH-portfolio.github.io/img/PHP-logo.svg.png" alt="PHP" />
+                            <img src="/audeH-portfolio.github.io/img/javascript.webp" alt="JavaScript" />
+                            <img src="/audeH-portfolio.github.io/img/PHP-logo.webp" alt="PHP" />
                         </div>
                     </div>
 
