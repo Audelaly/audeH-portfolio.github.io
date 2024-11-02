@@ -23,7 +23,7 @@ const SkillsSection = () => {
                     <div className="col-lg-3" data-aos="fade-up" data-aos-delay="100">
                         <div className="progress">
                             <img src="/audeH-portfolio.github.io/img/flask-horizontal.webp" alt="Flask" />
-                            <img src="/audeH-portfolio.github.io/img/laravel.webp" alt="Laravel" />
+                            <img src="/audeH-portfolio.github.io/img/laravel_11zon.webp" alt="Laravel" />
                             <img src="/audeH-portfolio.github.io/img/next-js.svg" alt="Next JS"/>
                         </div>
                     </div>

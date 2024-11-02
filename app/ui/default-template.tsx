@@ -13,7 +13,7 @@ function DefaultTemplate({ children }: DefaultTemplateProps) {
             <header id="header" className="bg-gray-800 text-white">
                 <div className="flex flex-col items-center">
                     <div className="profile text-center">
-                        <img src="/audeH-portfolio.github.io/img/profil.JPG" alt="" className="w-24 h-24 rounded-full mx-auto"/>
+                        <img src="/audeH-portfolio.github.io/img/profil_11.jpg" alt="" className="w-24 h-24 rounded-full mx-auto"/>
                         <h1 className="text-light text-2xl mt-4">
                             <a href="#home" className="text-white no-underline">Aude Halipré</a>
                         </h1>
