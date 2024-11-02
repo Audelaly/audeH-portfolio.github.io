@@ -29,7 +29,7 @@ const ProjetsSection = () => {
 
                     <div className="col portfolio-item">
                     <div className="portfolio-wrap flex">
-                            <img src="/audeH-portfolio.github.io/img/verbes-anglais_11zon.jpg" className="img-fluid w-1/2" alt="Verbes irréguliers anglais" />
+                            <img src="/audeH-portfolio.github.io/img/verbes-anglais.svg" className="img-fluid w-1/2" alt="Verbes irréguliers anglais" />
                             <div className="portfolio-description w-1/4 p-4">
                                 <h3>Verbes irréguliers anglais (Python)</h3>
                                 <p> Le but de ce programme de révision est de donner un maximum de bonnes réponses en donnant le ou les formes manquantes du verbe affiché.
@@ -59,7 +59,7 @@ const ProjetsSection = () => {
 
                     <div className="col portfolio-item">
                         <div className="portfolio-wrap flex">
-                            <img src="/audeH-portfolio.github.io/img/jo2024_11zon.jpg" className="img-fluid w-1/2"
+                            <img src="/audeH-portfolio.github.io/img/jo2024.svg" className="img-fluid w-1/2"
                                  alt="JO Paris 2024"/>
                             <div className="portfolio-description w-1/2 p-4">
                                 <h3>JO Paris 2024 (PHP)</h3>
