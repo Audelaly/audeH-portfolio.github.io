@@ -492,28 +492,9 @@ section {
   border-radius: 0;
 }
 
-.skills .grid-container {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-}
-
-.skills .grid-container .item {
-  width: 100%;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  margin-bottom: 20px;
-}
-
-.skills .grid-container .item img {
-  width: 80%; /* Adjust the width as needed */
-  margin-bottom: 15px;
-}
 
 img {
-  height: 20%;
-
+  height: 30%;
   margin-bottom: 15px;
 }
 
