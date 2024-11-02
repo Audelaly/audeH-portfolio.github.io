@@ -54,7 +54,7 @@ const ProjetsSection = () => {
                                         Avec le personnage, on peut sauter, miner, se déplacer à droite ou à gauche.
                                         On a aussi un système de gestion de l'inventaire et de la dureté des ressources.
                                         Enfin, nous pouvons "fusionner" des ressources entre elles pour pouvoir créer des
-                                        portails vers d'autres mondes. 
+                                        portails vers d'autres mondes.
                                     </p>
                                 </div>
                             </div>
