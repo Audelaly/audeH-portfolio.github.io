@@ -762,3 +762,38 @@ img {
   font-size: 1rem;
   color: #555;
 }
+
+/* global.css */
+.portfolio .row {
+  display: flex;
+  flex-direction: column;
+  gap: 8px; /* Adjust the gap as needed */
+}
+
+.portfolio .portfolio-wrap {
+  display: flex;
+  align-items: center;
+  border: 1px solid #ddd;
+  padding: 16px;
+  border-radius: 8px;
+  transition: box-shadow 0.3s ease;
+}
+
+.portfolio .portfolio-wrap:hover {
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.portfolio .portfolio-description {
+  padding-left: 16px;
+}
+
+.portfolio .portfolio-description h3 {
+  font-size: 1.25rem;
+  font-weight: bold;
+  margin-bottom: 8px;
+}
+
+.portfolio .portfolio-description p {
+  font-size: 1rem;
+  color: #555;
+}
