@@ -1,4 +1,4 @@
-import Link from 'next/link';
+import Image from 'next/image';
 
 const ProjetsSection = () => {
     return (
@@ -12,14 +12,11 @@ const ProjetsSection = () => {
                 <div className="row grid grid-cols-1 md:grid-cols-2 gap-8" data-aos="fade-up">
                     <div className="col portfolio-item">
                         <div className="portfolio-wrap flex">
-                            <img src="/audeH-portfolio.github.io/img/jeu-du-pendu.svg" className="img-fluid w-1/4"
-                                 alt="Jeu du pendu"/>
+                            <Image src="/audeH-portfolio.github.io/img/jeu-du-pendu.svg" width={200} height={200} className="img-fluid w-1/4" alt="Jeu du pendu"/>
                             <div className="portfolio-description w-1/2 p-4">
                                 <h3>Jeu du pendu (Python)</h3>
-                                <p>Le projet est simple. L'ordinateur vous montre une série de traits, représentant le
-                                    mot que vous allez devoir deviner.
-                                    Vous allez entrer une lettre et le programme regarde si le mot à trouver contient
-                                    une ou plusieurs fois la lettre, ou non.
+                                <p>Le projet est simple. L'ordinateur vous montre une série de traits, représentant le mot que vous allez devoir deviner.
+                                    Vous allez entrer une lettre et le programme regarde si le mot à trouver contient une ou plusieurs fois la lettre, ou non.
                                     Si oui, il remplace le ou les traits contenant la lettre.
                                     Dans le cas contraire, le programme commence ou continue le dessin du pendu.
                                 </p>
@@ -28,8 +25,8 @@ const ProjetsSection = () => {
                     </div>
 
                     <div className="col portfolio-item">
-                    <div className="portfolio-wrap flex">
-                            <img src="/audeH-portfolio.github.io/img/verbes-anglais.svg" className="img-fluid w-1/2" alt="Verbes irréguliers anglais" />
+                        <div className="portfolio-wrap flex">
+                            <Image src="/audeH-portfolio.github.io/img/verbes-anglais.svg" width={200} height={200} className="img-fluid w-1/2" alt="Verbes irréguliers anglais" />
                             <div className="portfolio-description w-1/4 p-4">
                                 <h3>Verbes irréguliers anglais (Python)</h3>
                                 <p> Le but de ce programme de révision est de donner un maximum de bonnes réponses en donnant le ou les formes manquantes du verbe affiché.
@@ -42,7 +39,7 @@ const ProjetsSection = () => {
 
                     <div className="col portfolio-item">
                         <div className="portfolio-wrap flex">
-                            <img src="/audeH-portfolio.github.io/img/flatcraft_11zon.jpeg" className="img-fluid w-1/4" alt="Flatcraft" />
+                            <Image src="/audeH-portfolio.github.io/img/flatcraft_11zon.jpeg" width={200} height={200} className="img-fluid w-1/4" alt="Flatcraft" />
                             <div className="portfolio-description w-1/2 p-4">
                                 <h3>Flatcraft (Java)</h3>
                                 <p> Vous connaissez le jeu Minecraft ? Et bien, Flatcraft c'est Minecraft en 2D !
@@ -59,8 +56,7 @@ const ProjetsSection = () => {
 
                     <div className="col portfolio-item">
                         <div className="portfolio-wrap flex">
-                            <img src="/audeH-portfolio.github.io/img/jo2024.svg" className="img-fluid w-1/2"
-                                 alt="JO Paris 2024"/>
+                            <Image src="/audeH-portfolio.github.io/img/jo2024.svg" width={200} height={200} className="img-fluid w-1/4" alt="JO Paris 2024"/>
                             <div className="portfolio-description w-1/2 p-4">
                                 <h3>JO Paris 2024 (PHP)</h3>
                                 <p> Dans ce projet, on apprend comment utiliser Laravel. On y voit le routage CRUD et
