@@ -32,7 +32,7 @@ const ProjetsSection = () => {
 
                         <div className="col portfolio-item">
                             <div className="portfolio-wrap flex">
-                                <Image src="/audeH-portfolio.github.io/img/verbes-anglais.svg" width={200} height={200} className="img-fluid w-1/2" alt="Verbes irréguliers anglais" loading="lazy"/>
+                                <Image src="/audeH-portfolio.github.io/img/verbes-anglais.webp" width={200} height={200} className="img-fluid w-1/2" alt="Verbes irréguliers anglais" loading="lazy"/>
                                 <div className="portfolio-description w-1/4 p-4">
                                     <h3>Verbes irréguliers anglais (Python)</h3>
                                     <p> Le but de ce programme de révision est de donner un maximum de bonnes réponses en donnant le ou les formes manquantes du verbe affiché.
@@ -45,7 +45,7 @@ const ProjetsSection = () => {
 
                         <div className="col portfolio-item">
                             <div className="portfolio-wrap flex">
-                                <Image src="/audeH-portfolio.github.io/img/flatcraft_11zon.jpg" width={200} height={200} className="img-fluid w-1/4" alt="Flatcraft" loading="lazy"/>
+                                <Image src="/audeH-portfolio.github.io/img/flatcraft_11zon.webp" width={200} height={200} className="img-fluid w-1/4" alt="Flatcraft" loading="lazy"/>
                                 <div className="portfolio-description w-1/2 p-4">
                                     <h3>Flatcraft (Java)</h3>
                                     <p> Vous connaissez le jeu Minecraft ? Et bien, Flatcraft c'est Minecraft en 2D !
