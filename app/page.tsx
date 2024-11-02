@@ -1,3 +1,4 @@
+import Head from 'next/head';
 import FormationSection from './ui/formation-section';
 import SkillsSection from "@/app/ui/skills-section";
 import ContactSection from "@/app/ui/contact-section";
@@ -8,6 +9,12 @@ import AboutSection from "@/app/ui/about-section";
 export default function Page() {
     return (
         <DefaultTemplate>
+            <Head>
+                <title>Portfolio - Aude Halipré</title>
+                <meta name="description" content="Portfolio de Aude Halipré, apprenti développeur. Découvrez mes compétences, formations, projets et contactez-moi." />
+                <meta name="viewport" content="width=device-width, initial-scale=1" />
+                <link rel="icon" href="/favicon.ico" />
+            </Head>
             <div>
                 <div>
                     <section id="home" className="d-flex flex-col justify-center items-center min-h-screen">
