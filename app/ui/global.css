@@ -739,11 +739,6 @@ img {
   transition: box-shadow 0.3s ease;
 }
 
-.portfolio .portfolio-wrap img[src*="jeu-du-pendu"],
-.portfolio .portfolio-wrap img[src*="jo2024"] {
-  width: 50%; /* Adjust the width as needed */
-  height: auto; /* Maintain aspect ratio */
-}
 .portfolio .portfolio-wrap:hover {
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
 }
