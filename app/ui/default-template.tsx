@@ -1,14 +1,23 @@
 import { ReactNode } from 'react';
+import Head from 'next/head';
 import Image from 'next/image';
 import NavLink from "@/app/ui/nav-link";
 
 type DefaultTemplateProps = {
     children: ReactNode;
+    title: string;
+    description: string;
 };
 
-function DefaultTemplate({ children }: DefaultTemplateProps) {
+function DefaultTemplate({ children, title, description }: DefaultTemplateProps) {
     return (
         <div className="flex">
+            <Head>
+                <title>{title}</title>
+                <meta name="description" content={description} />
+                <meta name="viewport" content="width=device-width, initial-scale=1" />
+                <link rel="icon" href="/favicon.ico" />
+            </Head>
             {/* ======= Mobile nav toggle button ======= */}
             <i className="bi bi-list mobile-nav-toggle d-xl-none"></i>
             <header id="header" className="bg-gray-800 text-white">
