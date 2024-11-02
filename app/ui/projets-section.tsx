@@ -45,7 +45,7 @@ const ProjetsSection = () => {
 
                         <div className="col portfolio-item">
                             <div className="portfolio-wrap flex">
-                                <Image src="/audeH-portfolio.github.io/img/flatcraft_11zon.jpeg" width={200} height={200} className="img-fluid w-1/4" alt="Flatcraft" loading="lazy"/>
+                                <Image src="/audeH-portfolio.github.io/img/flatcraft_11zon.jpg" width={200} height={200} className="img-fluid w-1/4" alt="Flatcraft" loading="lazy"/>
                                 <div className="portfolio-description w-1/2 p-4">
                                     <h3>Flatcraft (Java)</h3>
                                     <p> Vous connaissez le jeu Minecraft ? Et bien, Flatcraft c'est Minecraft en 2D !

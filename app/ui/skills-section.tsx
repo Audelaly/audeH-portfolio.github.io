@@ -14,7 +14,7 @@ const SkillsSection = () => {
 
                     <div className="col-lg-3" data-aos="fade-up">
                         <div className="progress">
-                            <img src="/audeH-portfolio.github.io/img/java_11zon.webp.webp" alt="Java" />
+                            <img src="/audeH-portfolio.github.io/img/java_11zon.webp" alt="Java" />
                             <img src="/audeH-portfolio.github.io/img/python_11zon.webp" alt="Python" />
                             <img src="/audeH-portfolio.github.io/img/linux.webp" alt="Linux" />
                         </div>
