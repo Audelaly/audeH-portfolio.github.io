@@ -12,7 +12,7 @@ const ProjetsSection = () => {
                 <div className="row grid grid-cols-1 md:grid-cols-2 gap-8" data-aos="fade-up">
                     <div className="col portfolio-item">
                         <div className="portfolio-wrap flex">
-                            <Image src="/audeH-portfolio.github.io/img/jeu-du-pendu.svg" width={200} height={200} className="img-fluid w-1/4" alt="Jeu du pendu"/>
+                            <Image src="/audeH-portfolio.github.io/img/jeu-du-pendu.svg" width={200} height={200} className="img-fluid w-1/4" alt="Jeu du pendu" loading="lazy"/>
                             <div className="portfolio-description w-1/2 p-4">
                                 <h3>Jeu du pendu (Python)</h3>
                                 <p>Le projet est simple. L'ordinateur vous montre une série de traits, représentant le mot que vous allez devoir deviner.
@@ -26,7 +26,7 @@ const ProjetsSection = () => {
 
                     <div className="col portfolio-item">
                         <div className="portfolio-wrap flex">
-                            <Image src="/audeH-portfolio.github.io/img/verbes-anglais.svg" width={200} height={200} className="img-fluid w-1/2" alt="Verbes irréguliers anglais" />
+                            <Image src="/audeH-portfolio.github.io/img/verbes-anglais.svg" width={200} height={200} className="img-fluid w-1/2" alt="Verbes irréguliers anglais" loading="lazy"/>
                             <div className="portfolio-description w-1/4 p-4">
                                 <h3>Verbes irréguliers anglais (Python)</h3>
                                 <p> Le but de ce programme de révision est de donner un maximum de bonnes réponses en donnant le ou les formes manquantes du verbe affiché.
@@ -39,7 +39,7 @@ const ProjetsSection = () => {
 
                     <div className="col portfolio-item">
                         <div className="portfolio-wrap flex">
-                            <Image src="/audeH-portfolio.github.io/img/flatcraft_11zon.jpeg" width={200} height={200} className="img-fluid w-1/4" alt="Flatcraft" />
+                            <Image src="/audeH-portfolio.github.io/img/flatcraft_11zon.jpeg" width={200} height={200} className="img-fluid w-1/4" alt="Flatcraft" loading="lazy"/>
                             <div className="portfolio-description w-1/2 p-4">
                                 <h3>Flatcraft (Java)</h3>
                                 <p> Vous connaissez le jeu Minecraft ? Et bien, Flatcraft c'est Minecraft en 2D !
@@ -56,7 +56,7 @@ const ProjetsSection = () => {
 
                     <div className="col portfolio-item">
                         <div className="portfolio-wrap flex">
-                            <Image src="/audeH-portfolio.github.io/img/jo2024.svg" width={200} height={200} className="img-fluid w-1/4" alt="JO Paris 2024"/>
+                            <Image src="/audeH-portfolio.github.io/img/jo2024.svg" width={200} height={200} className="img-fluid w-1/4" alt="JO Paris 2024" loading="lazy"/>
                             <div className="portfolio-description w-1/2 p-4">
                                 <h3>JO Paris 2024 (PHP)</h3>
                                 <p> Dans ce projet, on apprend comment utiliser Laravel. On y voit le routage CRUD et
