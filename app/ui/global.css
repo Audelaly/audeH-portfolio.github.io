@@ -737,8 +737,6 @@ img {
   padding: 16px;
   border-radius: 8px;
   transition: box-shadow 0.3s ease;
-  max-width: 600px; /* Adjust the width as needed */
-  margin: 0 auto; /* Center the cards */
 }
 
 .portfolio .portfolio-wrap:hover {
