@@ -14,7 +14,7 @@ function DefaultTemplate({ children }: DefaultTemplateProps) {
             <header id="header" className="bg-gray-800 text-white">
                 <div className="flex flex-col items-center">
                     <div className="profile text-center">
-                        <Image src="/audeH-portfolio.github.io/img/profil.JPG" alt="" className="w-24 h-24 rounded-full mx-auto" width={96} height={96} loading="lazy"/>
+                        <Image src="/audeH-portfolio.github.io/img/profil_11zon.webp" alt="" className="w-24 h-24 rounded-full mx-auto" width={96} height={96} loading="lazy"/>
                         <h1 className="text-light text-2xl mt-4">
                             <a href="#home" className="text-white no-underline">Aude Halipré</a>
                         </h1>
